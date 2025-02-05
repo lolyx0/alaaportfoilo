@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "inter", sans-serif;
+  background: #000;
+
+}
+
+
+@keyframes glowAnimation {
+  0% {
+    text-shadow: 0 0 5px #fab9e1db, 0 0 10px #fab9e1db, 0 0 20px #fab9e1db, 0 0 40px #fab9e1db;
+  }
+  100% {
+    text-shadow: 0 0 10px #fab9e1db, 0 0 20px #fab9e1db, 0 0 40px #fab9e1db, 0 0 80px #fab9e1db;
+  }
+}
+
+.glow-effect {
+  animation: glowAnimation 1.5s infinite alternate;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
