@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import Hero from "./components/Hero";
-import Technologies from "./components/Technologies";
-import Projects from "./components/Projects";
-import Experience from "./components/Experience";
-import Contact from "./components/Contact";
-import ScrollProgressBar from "./components/ScrollProgressBar";
+import Navbar from "./components/Navbar.jsx";
+import Hero from "./components/Hero.jsx";
+import Technologies from "./components/Technologies.jsx";
+import Projects from "./components/Projects.jsx";
+import Experience from "./components/Experience.jsx";
+import Contact from "./components/Contact.jsx";
+import ScrollProgressBar from "./components/ScrollProgressBar.jsx";
 
 function App() {
   return (
