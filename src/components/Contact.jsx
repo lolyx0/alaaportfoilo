@@ -22,10 +22,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_nok9bce",
-        "template_7c9ow35",
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formData,
-        "748L_WCkQqJ4IP_GO"
+        import.meta.env.VITE_EMAILJS_USER_ID
       )
       .then(
         (response) => {
@@ -60,7 +60,6 @@ const Contact = () => {
         initial={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.5 }}
       >
-        {/* Name Input */}
         <div>
           <label className="block text-sm text-slate-50">Name</label>
           <input
@@ -72,8 +71,6 @@ const Contact = () => {
             className="w-full p-3 mt-1 rounded-md bg-stone-800 text-white focus:ring-2 focus:ring-rose-400 outline-none"
           />
         </div>
-
-        {/* Email Input */}
         <div>
           <label className="block text-sm text-slate-50">Email</label>
           <input
@@ -85,8 +82,6 @@ const Contact = () => {
             className="w-full p-3 mt-1 rounded-md bg-stone-800 text-white focus:ring-2 focus:ring-rose-400 outline-none"
           />
         </div>
-
-        {/* Message Input */}
         <div>
           <label className="block text-sm text-slate-50">Message</label>
           <textarea
@@ -98,8 +93,6 @@ const Contact = () => {
             className="w-full p-3 mt-1 rounded-md bg-stone-800 text-white focus:ring-2 focus:ring-rose-400 outline-none"
           ></textarea>
         </div>
-
-        {/* Send Button */}
         <motion.button
           type="submit"
           className="w-full bg-rose-200 py-3 rounded-md text-white font-semibold text-lg hover:bg-pink-700 transition-all duration-300"
@@ -109,8 +102,6 @@ const Contact = () => {
         >
           {isLoading ? "Sending..." : "Send Message"}
         </motion.button>
-
-        {/* Success Message */}
         {isSent && (
           <motion.p
             className="text-green-400 text-center mt-2"
