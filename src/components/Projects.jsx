@@ -57,6 +57,17 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <p className="text-center text-stone-400 mt-10">
+        View more projects in{" "}
+        <a
+          href="https://github.com/lolyx0"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-pink-500 hover:underline"
+        >
+          GitHub
+        </a>
+      </p>
     </div>
   );
 };

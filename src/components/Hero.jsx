@@ -75,7 +75,7 @@ const Hero = () => {
               variants={childVariants}
               className="bg-gradient-to-r from-stone-300 to-pink-300 bg-clip-text text-3xl tracking-tight text-transparent mt-8"
             >
-              Front-End Developer
+              Full Stack Developer
             </motion.span>
             <motion.p
               variants={childVariants}
@@ -85,7 +85,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/MyCV.pdf"
+              href="/CVfullstack.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
