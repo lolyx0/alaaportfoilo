@@ -1,6 +1,6 @@
 🌐 Alaa Portfolio
 Welcome to the Alaa Portfolio project! This is a personal portfolio website that showcases my work, skills, and achievements.
-view demo: https://alaa-abderrahim.pages.dev
+view demo: https://alaaportfoilo.vercel.app/
 
 📌 Features
 Responsive Design: The portfolio adapts seamlessly to different screen sizes, from desktop to mobile.
@@ -20,7 +20,7 @@ npm
 
 🚀 Deployment
 This project is deployed on Vercel. Visit the live site here:
-https://alaa-abderrahim.pages.dev
+https://alaaportfoilo.vercel.app/
 
 
 📝 License
